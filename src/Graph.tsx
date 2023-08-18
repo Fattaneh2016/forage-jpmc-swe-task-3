@@ -29,7 +29,7 @@ class Graph extends Component<IProps, {}> {
       timestamp: 'date',
       upper_bound: 'float',
       lower_bound: 'float',
-      trigger_alert: 'float',
+      trigger_alert: 'float' // add trigger_alert to schema 
     };
 
     if (window.perspective && window.perspective.worker()) {
